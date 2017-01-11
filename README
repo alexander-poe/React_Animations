@@ -1,4 +1,8 @@
-Basic full-stack JavaScript app template
+<h2> Animations </h2>
+- this repo is specifically for experimenting with react and css animations. 
+
+
+
 
 To build: npm run build
 
@@ -6,5 +10,3 @@ To start the server: npm run start
 
 To start in dev mode, with everything watched: npm run watch
 
-TODO: Use makefiles to cut down on some of the work (eg 'npm run start'
-currently runs 'npm run build' unconditionally).
