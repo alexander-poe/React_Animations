@@ -10,8 +10,13 @@ import Animadiv from './reactMotion/reactmotion';
 
 document.addEventListener('DOMContentLoaded', () =>
 	ReactDOM.render(<Provider store={store}>
+	<ShakeLittle>
 	<div className="centered">
-		<Animadiv/>
+			<Animadiv/>
+	
+
+	
 	</div>
+	</ShakeLittle>	
 	</Provider>, document.getElementById('app'))
 );

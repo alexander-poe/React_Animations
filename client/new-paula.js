@@ -12,7 +12,8 @@ export default connect()(class NewPaula extends React.Component {
 	render() {
 		return <form onSubmit={this.update.bind(this)}>
 			<input ref="paula" />
-			<input type="submit" value="Replace Paula" />
+			<input type="submit" value="did what?" />
 		</form>;
 	}
 })
+
